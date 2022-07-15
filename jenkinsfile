@@ -5,7 +5,7 @@ pipeline {
 	stage('Demo Active Choices Parameter') {
 	  steps {
 		echo "Environment Selected ${Environment}"
-		echo "Tags Selected ${Tags}"
+		echo "Tags Selected are ${Tags}"
 	  }
 	}
   }
